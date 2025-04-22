@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Importing the needed framework"""
+"""
+    Script that starts a Flask web application with two routes
+"""
 from flask import Flask, render_template
 
 

@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-"""a script that starts a Flask web application"""
-
+"""
+    Script that starts a Flask web application with two routes
+"""
 from flask import Flask
 
 
