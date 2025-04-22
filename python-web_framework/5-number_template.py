@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""
-    Script that starts a Flask web application with two routes
-"""
+"""Importing the needed framework"""
 from flask import Flask, render_template
 
 
@@ -51,4 +49,3 @@ def num_template(n):
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
-    
